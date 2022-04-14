@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?bb8crq');
+  src: url('fonts/icomoon.eot?bb8crq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bb8crq') format('truetype'),
+    url('fonts/icomoon.woff?bb8crq') format('woff'),
+    url('fonts/icomoon.svg?bb8crq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'icomoon';
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  background-size: auto 100vh;
+}
+.el-upload-dragger {
+  width: 866px;
+  height: 300px;
+  padding-top: 30px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+#klkl .dplayer-controller,
+#klkl .dplayer-bezel {
+  display: none;
+}
+
+html {
+  --color: #161722;
+  --text : #fff;
+}

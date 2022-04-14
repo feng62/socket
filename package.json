@@ -5,16 +5,30 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prettier": "prettier --write .",
+    "commit": "cz"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0",
+    "dplayer": "^1.26.0",
+    "echarts": "^5.3.0",
+    "element-plus": "^1.3.0-beta.2",
+    "sockjs-client": "^1.5.2",
+    "stompjs": "^2.3.3",
+    "uuid": "^8.3.2",
+    "vue": "^3.2.21",
     "vue-class-component": "^8.0.0-0",
+    "vue-dplayer": "^0.0.10",
     "vue-router": "^4.0.0-0",
+    "vue-video-player": "^5.0.2",
+    "vue3-video-play": "^1.3.1-beta.6",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@types/dplayer": "^1.25.2",
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -29,7 +43,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
-    "prettier": "^2.2.1",
+    "prettier": "^2.5.1",
     "typescript": "~4.1.5"
   },
   "eslintConfig": {
